@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E_commerce website</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+       @font-face {
+                font-family: proxima;
+                src: url(proxima/FontsFree-Net-Proxima-Nova-Sbold.otf);
+            }
+ 
+            *{
+                font-family: proxima;
+            }
+         </style>
+        </head>
+    
+    <body>
+     
+
+<!--NAVIGATION BAR-->
+<header class="header">
+<nav class="navbar navbar-default" style="background-color: white; height: 80px;">
+    <div class="container">
+    <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="images/beep-1@2x.png" class="img-responsive" height="80px" width="80px" id="logo">
+                  </a>
+                </div>
+              
+                <div class="collapse navbar-collapse" id="ecom-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">                      
+                          <li><a><img src="images/Icon material-notifications-none.png" alt="Bell icon"></a></li>
+                          <li><a><img class="img-responsive" src="images/profile_close_2.png" alt="Profile icon">
+                           </a></li>
+                           <li><div class="navtext"><a><p>My profile</p></a></div></li>
+                          <li><a><img class="img-responsive" src="images/bag_3.png"  alt="Bag icon">
+                          </a></li>
+                          <li><div class="navtext"><a><p>0 items</p></a></div></li>
+                          <li><a><img class="img-responsive" src="images/search-icon.png" alt="search icon"></a></li>
+                  </ul>
+                </div>
+            </div>
+          </nav>
+        
+          <div class="header-overlay">
+            <div class="container hmargin">                
+              <div class="row">                  
+                  <div class="col-md-12">
+                      <div class="home text-left">                          
+                          <p id="home1">Home</p> 
+                          <p id="slant">/</p>
+                          <p id="accesories">Accesories</p>                         
+                      </div>                      
+                  </div>
+              </div>
+            </div>                
+          </div>
+    </header>
+        
+        <!--ACCESSORIES AND CARAOUSAL-->
+        <section class="caraousal">
+            <div class="container" >
+                <div class="row">
+                <div class="col-md-3 pdandbg">
+                    <p id="a-categories"><b>ALL CATEGORIES</b></p>
+                    <ul>
+                        <li><a>Accesories</a></li>
+                        <li><a>Cables and Docks</a></li>
+                        <li><a>Cases and Films</a></li>
+                        <li><a>Charging Devices</a></li>
+                        <li><a>Connected homes</a></li>
+                        <li><a>Headphones</a></li>
+                      </ul>
+                </div>
+                <div class="col-md-9">
+                    <!--<ul class="list-group">
+                        <li class="list-group-item">First item</li>
+                        <li class="list-group-item">Second item</li>
+                        <li class="list-group-item">Third item</li>
+                      </ul>-->
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--MIDDLE SECTION-->
+        <section class="middle">
+            <div class="container">
+                    <div class=row>
+                        <div class="col-md-3 " >
+
+                                <div class="row ">
+                                    <div class="col-md-12 pdandbg">
+                                        <p id="a-categories"><b>PRICES</b></p>
+                                        <p>Max  <span style="display:inline-block; width:190px;"></span> Min</p>
+                                        <p style="color:#C1C8CE">&nbsp &nbsp $499<span style="display:inline-block; width:80px;"></span> - <span style="display:inline-block; width:50px;"></span>$499</p>
+                                    </div>
+                                
+                                </div>
+                            
+                            
+                                <div class="row middle">
+                                    <div class="col-md-12 pdandbg radioc">
+                                    <p id="a-categories"><b>COLOR</b></p>
+                                    <div class="colors">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="color" value="black" checked>
+                                        <span class="swatch" style="background-color:#6f71e7;border-radius: 50%; height:22px; width:22px;" ></span> 
+                                      </label>
+                                    
+                                      <label class="radio-inline">
+                                        <input type="radio" name="color" value="blue">
+                                        <span class="swatch" style="background-color:#ff0000;border-radius: 50%;height:22px; width:22px;"></span> 
+                                      </label>
+                                    
+                                      <label class="radio-inline">
+                                        <input type="radio" name="color" value="green">
+                                        <span class="swatch" style="background-color:#000000;border-radius: 50%;height:22px; width:22px;"></span>
+                                      </label>
+        
+                                      <label class="radio-inline">
+                                        <input type="radio" name="color" value="green">
+                                        <span class="swatch" style="background-color:#fffc40;border-radius: 50%;height:22px; width:22px;"></span>
+                                      </label>
+        
+                                      <label class="radio-inline">
+                                        <input type="radio" name="color" value="green">
+                                        <span class="swatch" style="background-color:#ff25ed;border-radius: 50%;height:22px; width:22px;"></span>
+                                      </label>
+                                      <label class="radio-inline">
+                                        <input type="radio" name="color" value="green">
+                                        <span class="swatch" style="background-color:#e7a4cb;border-radius: 50%;height:22px; width:22px;"></span>
+                                      </label>
+                                    </div>
+                                    </div>
+                                   
+                                </div>
+                            
+                                
+                                <div class="row middle">
+                                    <div class="col-md-12 pdandbg">
+                                    <p id="a-categories"><b>BRAND</b></p>
+                                    <ul>
+                                        <li><a>Apple <span style="display:inline-block; width:185px;"></span><span style="color: #C1C8CE;">99</span></a></li>
+                                        <li><a>Beats <span style="display:inline-block; width:185px;"></span><span style="color: #C1C8CE;">99</span></a></li>
+                                        <li><a>Samsung <span style="display:inline-block; width:160px;"></span><span style="color: #C1C8CE;">99</span></a></li>
+                                        <li><a>Siemens <span style="display:inline-block; width:165px;"></span><span style="color: #C1C8CE;">99</span></a></li>
+                                        
+                                      </ul>
+                                    
+                                </div>
+                                </div>
+
+                                <div class="row middle">
+                                    <div class="col-md-12 pdandbg" style="margin-bottom: 24px;">
+                                        <p style="text-align: center;color:#33A0FF;"><b>MORE</b></p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <!--BOOTSTRAP CARDS-->
+                        
+                            <div class="col-md-9">
+                                <div class="row "   >
+                                  <div class="col-md-12 pdandbg" id="abc">
+                                        <p>13 Items &nbsp &nbsp &nbsp &nbsp &nbsp Sort By &nbsp 
+                                        <select name="sort" id="sort">
+                                            <option value="volvo">Name</option>
+                                            <option value="saab">Size</option>
+                                            <option value="mercedes">Price</option>
+                                            <option value="audi">Brand</option>
+                                          </select>
+                                          &nbsp &nbsp &nbsp &nbsp &nbsp Show &nbsp 
+                                          <select name="show" id="show">
+                                              <option value="volvo">12</option>
+                                              <option value="saab">13</option>
+                                              <option value="mercedes">14</option>
+                                              <option value="audi">15</option>
+                                            </select> </p>  
+                                  </div>   
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-4 columnl">
+                                      <div class="card">
+                                        <img class="img-responsive" src="images/Rectangle 5.png" >
+                                        <p style="margin-top: 20px;font-size: 16px;"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-4 columnm" >
+                                        <div class="card">
+                                          <img src="images/Rectangle 5.png" class="img-responsive">
+                                          <p style="margin-top: 20px;font-size: 16px"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star"></span>
+                                              <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-md-4 columnr">
+                                        <div class="card">
+                                          <img src="images/Rectangle 5.png" class="img-responsive">
+                                          <p style="margin-top: 20px;font-size: 16px"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star"></span>
+                                              <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-4 columnl">
+                                      <div class="card">
+                                        <img src="images/Rectangle 5.png" class="img-responsive">
+                                        <p style="margin-top: 20px;font-size: 16px"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-4 columnm">
+                                        <div class="card">
+                                          <img src="images/Rectangle 5.png" class="img-responsive">
+                                          <p style="margin-top: 20px;font-size: 16px"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star"></span>
+                                              <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-md-4 columnr">
+                                        <div class="card">
+                                          <img src="images/Rectangle 5.png" class="img-responsive">
+                                          <p style="margin-top: 20px;font-size: 16px"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star"></span>
+                                              <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-4 columnl">
+                                      <div class="card">
+                                        <img src="images/Rectangle 5.png" class="img-responsive">
+                                        <p style="margin-top: 20px;font-size: 16px"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-4 columnm">
+                                        <div class="card">
+                                          <img src="images/Rectangle 5.png" class="img-responsive">
+                                          <p style="margin-top: 20px;font-size: 16px"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star"></span>
+                                              <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-md-4 columnr">
+                                        <div class="card">
+                                          <img src="images/Rectangle 5.png" class="img-responsive">
+                                          <p style="margin-top: 20px;font-size: 16px"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star"></span>
+                                              <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-4 columnl">
+                                      <div class="card">
+                                        <img src="images/Rectangle 5.png" class="img-responsive">
+                                        <p style="margin-top: 20px;font-size: 16px"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-4 columnm">
+                                        <div class="card">
+                                          <img src="images/Rectangle 5.png" class="img-responsive">
+                                          <p style="margin-top: 20px;font-size: 16px"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star"></span>
+                                              <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-md-4 columnr">
+                                        <div class="card">
+                                          <img src="images/Rectangle 5.png" class="img-responsive">
+                                          <p style="margin-top: 20px;font-size: 16px"><b>Beat Solo2 On Ear</b><br><b>Headphone</b><br><span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star checked"></span>
+                                              <span class="fa fa-star"></span>
+                                              <span class="fa fa-star"></span><br><b><span style="color:red;">$499</span>&nbsp;&nbsp;<span style="color:grey;"><del>$599</del></span></b></p>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>       
+                                    
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--PAGE NUMBER SECTION-->
+            <section class="paginations">
+                
+                    <div class="row" style="text-align: center; ">
+                        <div class="pagination pagination-lg">
+                            
+                                <a href="#">1</a>
+                                 <a href="#" class="active">2</a>
+                                <a href="#">3</a>
+                                <a href="#">4</a>
+                                <a href="#">5</a>
+                              
+                        </div>
+
+                </div>
+
+            </section>
+
+
+            <!--FOOTER SECTION-->>
+            <footer class="footer"> 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/beep@2x.png" class="img-responsives" height="80px" width="80px">
+                            <p style="font-size: 12px"><br>Lorem lpsum is simply dummy text of printing
+                                <br>and typesetting industry.Lorem lpsum has been
+                                <br>the inudustry's standard dummy text evr.Since the
+                                <br>1500s,when an unknown printer.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <br><br><p><b>Follow Us </b></p><br>
+                            <p style="font-size: 12px">Since the 1500s,when an unknown printer took a
+                                <br>galloy of type and scrambled.</p><br>
+                                <img src="images/facebook.png" class="img-responsives" height="15px" width="10px" >  
+                                <img src="images/twitter.png" class="img-responsives" height="15px" width="10px" style="margin-left: 40px;">
+
+                        </div>
+                        <div class="col-md-4">
+                            <br><br><p><b>Contact Us </b></p><br>
+                            <p style="font-size: 12px">My company,4578 Marmora road,Glasgow
+                                <br>D04 89GR
+                                <br>Call us now:0123-456-789
+                                <br>Email:support@whatever.com</p>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    <div class="container" style="margin-top: 100px; margin-bottom: 50px;">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="copyright">
+                                    <p style="font-size: 12px"> &copy; 2021 Ecommerce site by www.beep.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6" style="text-align: right;">
+                                <img src="images/Western-union@2x.png" class="img-responsives" height="20px" width="35px" >  
+                                <img src="images/Group 19@2x.png" class="img-responsives" height="20px" width="35px" style="margin-left: 10px;">
+                                <img src="images/Paypal@2x.png" class="img-responsives" height="20px" width="35px" style="margin-left: 10px;">
+                                <img style="position: absolute; "src="images/Shape 327.png">
+                                <img style="position: absolute; padding-top:8px; padding-left:5px;" src="images/Shape 328.png">
+                            </div>
+
+                        </div>
+                    </div>
+            </footer>
+
+        </body>
+</html>
